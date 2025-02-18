@@ -1,5 +1,8 @@
 body{
- background-color: black;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 280px 800px;
+    background-image: url(https://wallpaperaccess.com/full/1202950.jpg);
 }
 
 .grid-container{
@@ -8,10 +11,15 @@ body{
 }
 
 p{
-    background-color: green;
     color: aliceblue;
     font-size: 25px;
     margin-left: 55px;
+}
+
+p1{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 30px;
 }
 
 h1{
@@ -22,13 +30,15 @@ h1{
 
 ul{
     color: aliceblue;
-    background-color: green;
     padding: 15px 20px 10px 10px
 }
 
 img{
     border-style: ridge;
-    border-color: aliceblue;
+    border-color: white;
     border-width: 3px;
     border-radius: 3px;
+}
+li{
+    margin-left: 30px;
 }
