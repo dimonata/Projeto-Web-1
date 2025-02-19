@@ -1,64 +1,74 @@
-body{
+body {
     background-repeat: no-repeat;
     background-color: black;
-    background-size: 280px 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+.formação {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.left {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
     background-image: url(https://wallpaperaccess.com/full/1202950.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 50px auto;
+p {
+    font-size: 25px;
+    margin-bottom: 0px;
 }
 
-p{
+p1 {
     color: aliceblue;
     font-size: 25px;
-    margin-left: 57px;
 }
 
-p1{
+p2 {
     color: aliceblue;
     font-size: 25px;
-    margin-left: 15px;
 }
 
-p2{
-    color: aliceblue;
-    font-size: 25px;
-    margin-left: 10px;
-}
-
-p3{
-    position: fixed;
-    margin-left: 300px;
-    margin-top: 50px;
-    color: aliceblue;
-}
-
-h1{
-    color: aliceblue;
+h1 {
+    font-style:italic;
+    color:aliceblue;
     font-size: 23px;
-    margin-left: 9px;
 }
 
-h2{
-    position: fixed;
-    margin-left: 450px;
-    margin-top: 1px;
+ul {
     color: aliceblue;
+    padding: 3px;
 }
 
-ul{
-    color: aliceblue;
-    padding: 15px 20px 10px 10px
-}
-
-img{
+img {
     border-style: ridge;
     border-color: white;
     border-width: 3px;
     border-radius: 3px;
 }
-li{
-    margin-left: 30px;
+
+li {
+    padding: 2px;
+    text-align:left;
+}
+
+@media (max-width:350px) {
+    body {
+
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
 }
